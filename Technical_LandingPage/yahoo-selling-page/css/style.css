@@ -1,0 +1,45 @@
+body {
+  padding-top: 20px;
+}
+.jumbotron {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.nav-fill {
+  background-color: rgba(185, 187, 185, 0.667);
+  padding: 15px 0;
+  border-radius: 3px;
+  border: 2px solid rgb(156, 203, 85);
+}
+
+.nav-link {
+  color: rgb(34, 62, 6);
+  text-align: center;
+}
+.nav-link:hover {
+  background-color: rgb(97, 147, 84);
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.centre {
+  text-align: center;
+}
+.footer {
+  text-align: center;
+  padding: 15px;
+  background-color: rgba(185, 187, 185, 0.667);
+  width: 100%;
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .nav-link {
+    color: rgb(34, 62, 6);
+    text-align: center;
+  }
+}

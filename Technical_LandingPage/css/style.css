@@ -1,0 +1,79 @@
+html {
+  height: 100%;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.navbar-light .navbar-brand {
+  color: black;
+  /* box-shadow: 2px 2px 2px 2px darkslategrey; */
+  padding: 5px;
+  border-radius: 5px;
+}
+body {
+  background: url("../images/kaitlyn-baker-vZJdYl5JVXY-unsplash\ \(1\).jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Catamaran;
+}
+.nav-link {
+  color: darkslategrey;
+  font-weight: bolder;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: darkslategrey;
+  font-weight: bolder;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: darkslategrey;
+  font-weight: bolder;
+}
+
+.container {
+  text-align: center;
+  padding-top: 15%;
+}
+
+h1,
+h2,
+p {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    background-color: #8cd28c;
+  }
+  h2 {
+    color: #8cd28c;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    background-color: #8cd28c;
+    opacity: 0.8;
+  }
+}
+
+.dropdown-menu #item1.dropdown-item {
+  background-color: #3b599b;
+  color: white;
+}
+
+.dropdown-menu #item2.dropdown-item {
+  background-color: #55acee;
+  color: white;
+}
+
+.dropdown-menu #item3.dropdown-item {
+  background-color: #f4511e;
+  color: white;
+}
